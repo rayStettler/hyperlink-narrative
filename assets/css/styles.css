@@ -1,5 +1,65 @@
 /* styles.css */
+@import url('https://fonts.googleapis.com/css?family=Cardo');
 
 * {
-	font-family: Arial;
+	font-family: 'Cardo', serif;
+	font-style: normal, italic;
+}
+
+
+h1 {
+	color: white; 
+	font-size: 6vw; 
+}
+
+h2 {
+	color: black; 
+	font-size:4vw; 
+	
+}
+
+h3 {
+  font-size: 3vw; /* Scales to 10% of the viewport width */
+  color: black; 
+}
+
+h4 {
+	font-size: 4vw; 
+	color: white; 
+}
+
+h6{
+	color: black; 
+	font-size: 6vw; 
+}
+
+a:link {
+	color: inherit; 
+    text-decoration: none;
+	font-style: italic; 
+}
+
+ a:visited {
+	font-style: italic; 
+    color: inherit; 
+}
+
+a:hover {
+	color: #A25FBF; 
+}
+
+a:active {
+	color: #A25FBF; 
+}
+
+html, body{
+	height: 100%; /* Ensures the body spans the full viewport height */
+    margin: 0; 
+}
+
+.center-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100%; /* Ensures the container spans the full parent height */
 }
